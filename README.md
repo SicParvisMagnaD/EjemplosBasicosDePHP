@@ -1,14 +1,26 @@
-# 🧺 Ejemplos básicos con PHP
+# Prácticas de PHP — Javier Vallarino
 
-Este repositorio contiene varios ejemplos prácticos en PHP para aprender y reforzar conceptos fundamentales, tales como:
+Repositorio con los ejercicios prácticos que fui resolviendo durante el laboratorio de Introducción al Lenguaje de Programación PHP.
 
-- Variables y Casting
-- Condicionales (`if` / `else`) y Fechas
-- Formulario HTML y Métodos HTTP (`GET` / `POST`)
-- Operaciones Matemáticas y Calculadora (`round`)
-- Código PHP Embebido en HTML
+## 📌 Información del curso
 
----
+| Campo | Detalle |
+|---|---|
+| Universidad | Universidad Tecnológica de Panamá |
+| Facultad | Facultad de Sistemas Computacionales |
+| Curso | Introducción al Lenguaje de Programación PHP |
+| Grupo | 1IL122 |
+| Semestre | II Semestre |
+| Estudiante | Javier Vallarino |
+| Correo | javier.vallarino@utp.ac.pa |
+
+## 🧩 Contenido del repositorio
+
+- **Práctica 1 — Iniciación:** script inicial en PHP que imprime "Hello World!".
+- **PHP Embebido:** combinación de código PHP dentro de HTML.
+- **Problema #2 — Calculadora:** script que realiza suma, resta, multiplicación y redondeo de decimales.
+- **Práctica 3 — Variables:** página dinámica que muestra el nombre de los autores usando variables PHP.
+- **Laboratorio #1 — Conversor de pulgadas a centímetros:** formulario HTML que recibe un valor en pulgadas y lo convierte a centímetros (1 pulgada = 2.54 cm).
 
 ## 🌐 Tecnologías utilizadas
 
@@ -16,30 +28,31 @@ Este repositorio contiene varios ejemplos prácticos en PHP para aprender y refo
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
 ![WampServer](https://img.shields.io/badge/WampServer-2C3E50?style=for-the-badge)
 
----
-
 ## ⚙️ Requisitos
 
-Para ejecutar los ejemplos necesitas un entorno local de servidor web con PHP (ecosistema de desarrollo). Estos paquetes permiten instalar de forma rápida un **stack de desarrollo** que incluye servidor web, base de datos y soporte para lenguajes de programación.
+Para correr estos ejercicios hace falta un entorno local que combine servidor web y PHP. Usé **WampServer**, que instala de una vez Apache, MySQL y PHP en Windows.
 
-📌 **Nota:** Estos entornos no son servidores en sí mismos, sino paquetes que contienen servidores y herramientas para simular un servidor web de forma local.
-
-**Editor de Código:**
+**Editor utilizado:**
 - Visual Studio Code
 
----
+## 📊 Estadísticas
+
+| | |
+|---|---|
+| Creado | 26-08-2026 |
+| Lenguaje principal | PHP |
+| Estado | En desarrollo |
 
 ## 🛠️ Cómo usar este repositorio
 
-1. Descarga o clona el repositorio, ubica una carpeta en `www` -> para WampServer o `htdocs` si es XAMPP:
+1. Clona el repositorio dentro de `www` (WampServer) o `htdocs` (XAMPP):
 
 ```bash
    git clone https://github.com/SicParvisMagnaD/EjemplosBasicosDePHP.git
 ```
 
-2. Para correrlo edita la URL de tu navegador: http://127.0.0.1/practicas/ o http://localhost/practicas/
+2. Con el servidor corriendo, abre en el navegador: http://127.0.0.1/practicas/ o http://localhost/practicas/
 
----
 
 ## 👤 Autor
 
@@ -47,13 +60,10 @@ Para ejecutar los ejemplos necesitas un entorno local de servidor web con PHP (e
 
 Estudiante de Licenciatura en Ciberseguridad
 Universidad Tecnológica de Panamá — Facultad de Sistemas Computacionales
-Grupo: 1IL122
-Unidad: Introducción al Lenguaje de Programación PHP, II Semestre
+Grupo: 1IL122 · Unidad: Introducción al Lenguaje de Programación PHP, II Semestre
 
-📧 Email: javier.vallarino@utp.ac.pa
-🌐 GitHub: [SicParvisMagnaD](https://github.com/SicParvisMagnaD)
-
----
+📧 javier.vallarino@utp.ac.pa
+🌐 [GitHub](https://github.com/SicParvisMagnaD)
 
 ## 🔗 Repositorio
 
