@@ -52,10 +52,13 @@ git clone https://github.com/SicParvisMagnaD/EjemplosBasicosDePHP.git
 ## 👤 Autor
 
 **Javier Vallarino**
-
 Estudiante de Licenciatura en Ciberseguridad
-Universidad Tecnológica de Panamá — Facultad de Sistemas Computacionales
-Grupo: 1IL122 · Unidad: Introducción al Lenguaje de Programación PHP, II Semestre
+
+Universidad Tecnológica de Panamá 
+Facultad de Sistemas Computacionales
+Grupo: 1IL122 
+Unidad: Introducción al Lenguaje de Programación PHP
+II Semestre
 
 📧 Email: javier.vallarino@utp.ac.pa
 🌐 GitHub: [SicParvisMagnaD](https://github.com/SicParvisMagnaD)
