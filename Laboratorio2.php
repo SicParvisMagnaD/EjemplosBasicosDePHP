@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Laboratorio - Calculadora</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; color: #333; }
+        h1 { color: #2b4c7e; }
+        select, input[type="number"] { padding: 5px; }
+        button { padding: 6px 16px; }
+    </style>
 </head>
 <body>
 
@@ -30,27 +36,24 @@
     <hr>
 
     <?php
-    // Solo entramos aquí si el formulario ya fue enviado
+    // solo entramos aquí si ya enviaron el formulario
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-        // Convertimos los datos del formulario a números.
-        // floatval() asegura que trabajemos con números decimales,
-        // aunque el usuario haya escrito texto raro por error.
+        // pasamos todo a número para no tener problemas con texto raro
         $num1 = floatval($_POST['num1']);
         $num2 = floatval($_POST['num2']);
-        $decimales = intval($_POST['decimales']); // intval = número entero
+        $decimales = intval($_POST['decimales']);
         $operacion = $_POST['operacion'];
 
         $resultado = "";
 
-        // switch es como una cadena de "if / else if" pero más ordenada
-        // cuando comparamos una misma variable contra varios valores posibles.
+        // según la operación elegida hacemos el cálculo correspondiente
         switch ($operacion) {
 
             case "sumar":
                 $resultado = $num1 + $num2;
                 echo "Suma: $num1 + $num2 = $resultado";
-                break; // break = "termina aquí, no sigas revisando los demás case"
+                break;
 
             case "restar":
                 $resultado = $num1 - $num2;
@@ -63,7 +66,6 @@
                 break;
 
             case "redondear":
-                // round() recibe el número y la cantidad de decimales deseados
                 $resultado = round($num1, $decimales);
                 echo "Redondeo: $num1 redondeado a $decimales decimales = $resultado";
                 break;

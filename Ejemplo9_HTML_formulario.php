@@ -2,9 +2,16 @@
 <html>
 <head>
     <title>Formulario de entrada del dato</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        form { margin-bottom: 20px; }
+        input[type="text"] { padding: 5px; }
+        input[type="submit"] { padding: 6px 16px; }
+    </style>
 </head>
 <body>
 
+    <!-- el mismo archivo recibe los datos, por eso action está vacío -->
     <form method="post" action="">
         Ingrese su nombre:<br>
         <input type="text" name="nombre" id="nombre"><br><br>
@@ -18,6 +25,7 @@
     <hr>
 
 <?php
+// mostramos el resultado solo si ya llenaron el formulario
 if (isset($_POST['nombre']) && isset($_POST['edad'])) {
     $Nombre = $_POST['nombre'];
     $Edad = intval($_POST['edad']);

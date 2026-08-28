@@ -1,4 +1,5 @@
 <?php
+// primera práctica, saludo básico
 Echo "Hello world";
 ?>
 

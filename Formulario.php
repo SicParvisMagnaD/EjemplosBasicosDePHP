@@ -2,10 +2,16 @@
 
 <head>
     <title>Formulario de entrada del dato</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        input[type="text"] { padding: 5px; }
+        input[type="submit"] { padding: 6px 16px; }
+    </style>
 </head>
 
 <body>
-    <form method="post" action="pagina2.php">
+    <!-- este envía los datos al archivo que procesa la edad -->
+    <form method="post" action="Aportes para el desarrollo.php">
         Ingrese su nombre:
         <input type="text" name="nombre" id="nombre">
         <br>

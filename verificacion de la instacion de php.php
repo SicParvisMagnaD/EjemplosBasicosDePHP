@@ -1,5 +1,5 @@
-
 <?php
+// solo verificamos que la instalación de php esté funcionando
 phpinfo();
 ?>
 

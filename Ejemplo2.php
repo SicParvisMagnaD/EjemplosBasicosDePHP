@@ -1,7 +1,4 @@
 <?php
-// Comprobación de instalación de PHP
+// solo comprobamos que php esté bien instalado
 phpinfo();
 ?>
-
-
-
