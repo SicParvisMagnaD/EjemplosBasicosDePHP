@@ -10,7 +10,10 @@ Este repositorio contiene los ejercicios prácticos que desarrollé en el labora
 
 ## 🌐 Tecnologías utilizadas
 
+## 🌐 Tecnologías utilizadas
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![WampServer](https://img.shields.io/badge/WampServer-2C3E50?style=for-the-badge)
