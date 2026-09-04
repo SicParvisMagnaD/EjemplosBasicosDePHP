@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplo 3 - Variables</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #444; font-size: 22px; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f9f9f9; color: #333; max-width: 600px; margin: 40px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1 { color: #0056b3; font-size: 22px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .resultado { font-size: 18px; padding: 10px; background: #e9ecef; border-radius: 4px; }
     </style>
 </head>
 <body>
     <h1>Ejemplo de funciones para las variables</h1>
+    <div class="resultado">
     <?php
-    // probamos con is_int e is_string antes de imprimir
     $ed = 42;
     $nom = "Juan";
     if (is_int($ed) && is_string($nom))
         print("$nom tiene $ed años");
     ?>
-
+    </div>
 </body>
 </html>
