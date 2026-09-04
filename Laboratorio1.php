@@ -28,17 +28,25 @@
     </div>
     <hr>
 
-    <h2>Ejercicio 2: Cálculo del área de una circunferencia</h2>
+    <h2>Ejercicio 2: Cálculo del área y perímetro de una circunferencia</h2>
     <form method="GET" action="">
         <label for="radio">Introduzca el radio (dato real):</label>
         <input type="number" step="any" name="radio" id="radio" required>
-        <input type="submit" value="Calcular Área">
+        <input type="submit" value="Calcular Área y Perímetro">
     </form>
     <?php
     if (isset($_GET['radio'])) {
         $radio = floatval($_GET['radio']);
+        
+        // Cálculos
         $area2 = M_PI * pow($radio, 2);
-        echo "<div class='respuesta'>El área de la circunferencia es: <strong>" . round($area2, 2) . "</strong></div>";
+        $perimetro2 = 2 * M_PI * $radio;
+        
+        // Salida
+        echo "<div class='respuesta'>";
+        echo "El área de la circunferencia es: <strong>" . round($area2, 2) . "</strong><br>";
+        echo "El perímetro de la circunferencia es: <strong>" . round($perimetro2, 2) . "</strong>";
+        echo "</div>";
     }
     ?>
     <hr>
